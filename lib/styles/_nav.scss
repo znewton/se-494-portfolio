@@ -1,0 +1,38 @@
+$nav-height: 1.5rem;
+
+nav.navbar {
+  z-index: 10;
+  display: flex;
+  height: $nav-height;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  background-color: rgba($white, 0.9);
+  .nav-left {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    align-items: center;
+  }
+  .nav-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    align-items: center;
+    a {
+      margin-left: 1rem;
+    }
+  }
+}
+
+main {
+  margin-top: $nav-height + 1rem;
+}
+
+.anchor {
+  display: block;
+  height: 0;
+  top: -$nav-height - 1rem;
+}
