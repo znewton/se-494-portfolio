@@ -1,0 +1,7 @@
+Porftolio Site:
+https://znewton.github.io/se-494-portfolio/
+
+Git Repo:
+https://github.com/znewton/se-494-portfolio/
+
+Readme contains more detailed plan for site styles
