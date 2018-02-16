@@ -24,7 +24,7 @@ touch "$SCRIPT"
 cd "$PROJECT_DIR/lib"
 for file in js/*
 do
-  echo "require('${file%.*}');"
+  echo "require('./${file%.*}');" >> "$SCRIPT"
 done
 cd $PROJECT_DIR
 

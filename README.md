@@ -45,3 +45,19 @@ I plan for this site to be a clean and easy, one page scroll type portfolio with
 I will host it on github pages at [http://znewton.github.io/se-494-portfolio](http://znewton.github.io/se-494-portfolio).
 
 All CSS will be custom cause that's the fun part.
+
+## Developing
+
+In seperate tabs:
+
+```shell
+./tools/sass.sh
+```
+
+```shell
+./tools/js.sh
+```
+
+```shell
+yarn serve
+```
