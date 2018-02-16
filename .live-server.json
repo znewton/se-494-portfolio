@@ -2,7 +2,7 @@
 	"port": 8181,
 	"root": "/",
 	"open": false,
-	"ignore": "lib/styles",
+	"ignore": "lib",
 	"file": "index.html",
 	"wait": 1000
 }

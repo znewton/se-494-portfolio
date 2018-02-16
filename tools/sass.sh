@@ -28,7 +28,9 @@ do
 done
 cd $PROJECT_DIR
 
-if [ $1 == "-b" ]; then
+cat "$STYLE"
+
+if [ "$1" = "-b" ]; then
   sass "$STYLE" "$BUILD"
 else
   sass --watch "$STYLE":"$BUILD"
