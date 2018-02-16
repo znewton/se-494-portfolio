@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script",
+    "ecmaFeatures": {}
+  },
+  "rules": {
+    "semi": 2
+  },
+  "env": {
+    "browser": true
+  }
+}

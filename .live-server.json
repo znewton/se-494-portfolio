@@ -1,0 +1,8 @@
+{
+	"port": 8181,
+	"root": "/",
+	"open": false,
+	"ignore": "lib/styles",
+	"file": "index.html",
+	"wait": 1000
+}

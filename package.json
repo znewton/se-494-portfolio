@@ -1,0 +1,16 @@
+{
+  "name": "se-494-portfolio",
+  "version": "0.1.0",
+  "description": "portfolio for SE 494 at Iowa State University",
+  "main": "index.js",
+  "repository": "git@github.com:znewton/se-494-portfolio.git",
+  "author": "znewton <znewton@iastate.edu>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "dev": "live-server"
+  }
+}

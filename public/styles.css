@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sanse', sans-serif;
+  font-size: 100%;
+  color: #191919; }
+  body * {
+    position: relative;
+    box-sizing: border-box; }
+
+/*# sourceMappingURL=styles.css.map */
