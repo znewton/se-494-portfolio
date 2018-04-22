@@ -1,4 +1,48 @@
 section {
   min-height: 90vh;
   padding: 0 20%;
+  img {
+    max-width: 100%;
+  }
+  p {
+    text-indent: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+    color: #393939;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: #595959;
+  }
+}
+
+section.hero {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  img {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  h1, h2 {
+    position: absolute;
+    left: 20rem;
+    color: #fefefe;
+    text-shadow: 1px 1px 3px rgba(black, 0.3);
+  }
+  h1 {
+    top: 40%;
+    font-size: 3rem;
+  }
+  h2 {
+    top: calc(40% + 5rem);
+  }
 }

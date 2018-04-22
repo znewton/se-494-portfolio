@@ -1,3 +1,8 @@
+footer {
+  padding: 0 20%; }
+  footer p {
+    padding-left: 1rem; }
+
 body {
   padding: 0;
   margin: 0;
@@ -47,7 +52,7 @@ nav.navbar {
         border-bottom-color: #1da1f2; }
 
 main {
-  margin-top: 3.5rem; }
+  margin-top: 2.5rem; }
 
 .anchor {
   display: block;
@@ -57,5 +62,39 @@ main {
 section {
   min-height: 90vh;
   padding: 0 20%; }
+  section img {
+    max-width: 100%; }
+  section p {
+    text-indent: 2rem; }
+  section h1 {
+    font-size: 2rem; }
+  section h2 {
+    font-size: 1.7rem;
+    color: #393939; }
+  section h3 {
+    font-size: 1.5rem;
+    color: #595959; }
+
+section.hero {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 0; }
+  section.hero img {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    z-index: -1; }
+  section.hero h1, section.hero h2 {
+    position: absolute;
+    left: 20rem;
+    color: #fefefe;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+  section.hero h1 {
+    top: 40%;
+    font-size: 3rem; }
+  section.hero h2 {
+    top: calc(40% + 5rem); }
 
 /*# sourceMappingURL=styles.css.map */
