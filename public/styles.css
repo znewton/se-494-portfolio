@@ -11,12 +11,18 @@ body {
 nav.navbar {
   z-index: 10;
   display: flex;
-  height: 1.5rem;
+  height: 2.5rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: rgba(255, 255, 255, 0.9);
+  align-items: center;
+  box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.3); }
+  nav.navbar > * {
+    height: 100%; }
+  nav.navbar .brand {
+    font-size: 1.5rem; }
   nav.navbar .nav-left {
     flex-basis: 25%;
     display: flex;
@@ -30,15 +36,23 @@ nav.navbar {
     padding-right: 1rem;
     align-items: center; }
     nav.navbar .nav-right a {
-      margin-left: 1rem; }
+      color: inherit;
+      text-decoration: none;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      vertical-align: middle;
+      margin-left: 1rem;
+      border: 1px solid transparent; }
+      nav.navbar .nav-right a.active, nav.navbar .nav-right a:hover {
+        border-bottom-color: #1da1f2; }
 
 main {
-  margin-top: 2.5rem; }
+  margin-top: 3.5rem; }
 
 .anchor {
   display: block;
   height: 0;
-  top: -2.5rem; }
+  top: -3.5rem; }
 
 section {
   min-height: 90vh;
