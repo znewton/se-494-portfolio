@@ -1,12 +1,14 @@
 footer {
-  padding: 0 20%; }
+  padding: 0.5rem 15%;
+  margin-top: 1rem;
+  background-color: #efefef; }
   footer p {
     padding-left: 1rem; }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sanse', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   color: #191919; }
   body * {
@@ -60,8 +62,8 @@ main {
   top: -3.5rem; }
 
 section {
-  min-height: 90vh;
-  padding: 0 20%; }
+  min-height: 50vh;
+  padding: 0 15%; }
   section img {
     max-width: 100%; }
   section p {
@@ -91,13 +93,13 @@ section.hero {
     z-index: -1; }
   section.hero h1, section.hero h2 {
     position: absolute;
-    left: 20rem;
+    left: 15%;
     color: #fefefe;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
   section.hero h1 {
-    top: 40%;
+    top: 30%;
     font-size: 3rem; }
   section.hero h2 {
-    top: calc(40% + 5rem); }
+    top: calc(30% + 5rem); }
 
 /*# sourceMappingURL=styles.css.map */

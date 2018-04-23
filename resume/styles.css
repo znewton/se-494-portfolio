@@ -1,3 +1,18 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  color: #333;
+}
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+a {
+  color: #1a8dd4;
+}
 .Resume {
   padding: 0.5rem;
   font-size: 1rem;
@@ -24,7 +39,93 @@ section {
 }
 
 .Education {
-  
+  padding-left: 0.2rem;
+}
+.Education .title {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Education .institution {
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  border-right: 1px solid #ddd;
+}
+.Education .for, .Education .gpa {
+  padding-left: 1rem;
+}
+.Education .duration {
+  color: #888;
+}
+
+.Skill {
+  padding-left: 0.2rem;
+}
+.Skill ul {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+}
+.Skill .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.competency {
+  color: #aaa;
+}
+
+.Experience {
+  padding-left: 0.2rem;
+}
+.Experience .title {
+  display: flex;
+}
+.Experience .title > *:not(:last-child) {
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  border-right: 1px solid #ddd;
+}
+.Experience .title .company {
+  font-weight: bold;
+}
+.Experience .title .duration {
+  color: #888;
+}
+.Experience ul {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+}
+
+.Activity {
+  padding-left: 0.2rem;
+}
+.Activity .title {
+  display: flex;
+}
+.Activity .title > *:not(:last-child) {
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  border-right: 1px solid #ddd;
+}
+.Activity .title .name {
+  font-weight: bold;
+}
+.Activity .title .dates {
+  color: #888;
+}
+.Activity ul {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+}
+.Activity .action-date {
+  color: #888;
+}
+
+#achievements ul {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+}
+#achievements .dates {
+  color: #888;
 }
 
 .section-header {

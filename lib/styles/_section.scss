@@ -1,6 +1,6 @@
 section {
-  min-height: 90vh;
-  padding: 0 20%;
+  min-height: 50vh;
+  padding: 0 15%;
   img {
     max-width: 100%;
   }
@@ -38,15 +38,15 @@ section.hero {
   }
   h1, h2 {
     position: absolute;
-    left: 20rem;
+    left: 15%;
     color: #fefefe;
     text-shadow: 1px 1px 3px rgba(black, 0.3);
   }
   h1 {
-    top: 40%;
+    top: 30%;
     font-size: 3rem;
   }
   h2 {
-    top: calc(40% + 5rem);
+    top: calc(30% + 5rem);
   }
 }
