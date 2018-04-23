@@ -63,7 +63,8 @@ main {
 
 section {
   min-height: 50vh;
-  padding: 0 15%; }
+  padding: 0 15%;
+  z-index: 1; }
   section img {
     max-width: 100%; }
   section p {
