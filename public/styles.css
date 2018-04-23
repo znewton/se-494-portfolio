@@ -74,6 +74,9 @@ section {
   section h3 {
     font-size: 1.5rem;
     color: #595959; }
+  section iframe {
+    height: 80vh;
+    width: 100%; }
 
 section.hero {
   height: 90vh;
